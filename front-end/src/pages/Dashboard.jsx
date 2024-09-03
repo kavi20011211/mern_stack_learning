@@ -16,12 +16,14 @@ function Dashboard() {
   useEffect(()=>{
     if(!user){
       navigate('/login');
+    }else{
+      dispatch(getGoals());
     }
 
     if(isError){
       console.log(message)
     }
-    dispatch(getGoals());
+   
     return ()=>{
       dispatch(reset());
     }
