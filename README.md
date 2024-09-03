@@ -1,4 +1,4 @@
-# Goalsetting MERN application
+# Goal setting MERN application
 
 This application done by myself to refresh the practicle knowladge of the mern stack development.
 
